@@ -1,0 +1,129 @@
+/* Tham khao link
+http://www.wpbeginner.com/wp-themes/default-wordpress-generated-css-cheat-sheet-for-beginners/ */
+
+
+/* Navigator */
+
+/*
+ * Cau truc HTML don gian
+ * ul.nav
+ *     li.menu-item(.current-menu-item)(.current-menu-parent)(.current-menu-ancestor)
+ *         a(href="", title="")
+ *     li.menu-item.menu-item-has-children
+ *         a(href="", title="")
+ *         ul.sub-menu
+ *             li.menu-item
+ *                 a(href="", title="")
+ */
+
+.entry-footer{padding:2% 10%}
+.entry-footer span{display:inline-block}
+.entry-footer span a{display:block;background:#5E162B;color:#fff;padding:4px 10px;border-radius:4px}
+
+.nav li{}
+.nav > li > a{}
+.nav .sub-menu{}
+.nav .sub-menu > li{}
+.nav .sub-menu > li > a{}
+
+/* Paginate */
+ul.page-numbers{}
+ul.page-numbers li{}
+ul.page-numbers li span.page-numbers.current{}
+ul.page-numbers li a.page-numbers{}
+ul.page-numbers li span.page-numbers{}
+ul.page-numbers li a.page-numbers.prev{}
+ul.page-numbers li a.page-numbers.next{}
+
+/* Wordpress The Content Default CSS */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* The content */
+.the-content p,
+.the-content h1,
+.the-content h2,
+.the-content h3,
+.the-content h4,
+.the-content h5,
+.the-content h6,
+.the-content ul,
+.the-content table {
+    margin: 13px 0px;
+}
+.the-content p {
+    line-height: 22px;
+}
+.the-content li {
+	margin: 10px 0 10px 40px;
+}
+.the-content ul li {
+	list-style: disc ;
+}
+.the-content ol li {
+	list-style: decimal;
+}

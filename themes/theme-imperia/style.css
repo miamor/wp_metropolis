@@ -1,0 +1,13 @@
+/*
+Theme Name: Vinhomes Imperia Theme
+Theme URI: http://timeuniversal.vn
+Author: Time Universal
+Author URI: http://blog.timeuniversal.vn
+Description: Designed by Time Universal Communications
+Version: 0.0.1
+*/
+
+@import "assets/bower_components/bootstrap/dist/css/bootstrap.css";
+@import "assets/bower_components/Swiper/dist/css/swiper.min.css";
+@import "assets/bower_components/font-awesome/css/font-awesome.min.css";
+@import "assets/css/main.css?v=3";
