@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 27, 2017 at 04:37 PM
+-- Generation Time: Sep 29, 2017 at 01:18 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.2
 
@@ -446,7 +446,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (220, 103, '_edit_last', '1'),
 (221, 103, '_edit_lock', '1506439938:1'),
 (222, 105, '_edit_last', '1'),
-(223, 105, '_edit_lock', '1506505787:1'),
+(223, 105, '_edit_lock', '1506529606:1'),
 (224, 105, '_thumbnail_id', '23'),
 (225, 107, '_edit_last', '1'),
 (226, 107, '_edit_lock', '1506505713:1'),
