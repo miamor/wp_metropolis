@@ -224,11 +224,44 @@ var wp_vars = {"ajaxurl":"<?php echo str_replace('/', '\/', MAIN_URL) ?>\/wp-adm
 					<div class="logo">
 						<img src="<?php header_image(); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 					</div>
+
+
+				<?php
+					$page_data = get_page(192);
+					$content = htmlspecialchars_decode(trim(preg_replace('/\s+/', '', strip_tags(apply_filters('the_content', $page_data->post_content), '<br>'))));
+					$cont = explode('<br/>', $content);
+					foreach ($cont as $oC) {
+						preg_match("/\[(.*?)\](.*)/", $oC, $match);
+						if ($match[1] == 'phone')
+							$phone = explode('&&', preg_replace('/\s+/', '', $match[2]));
+						else
+							$contacts[$match[1]] = explode('&&', preg_replace('/\s+/', '', $match[2]));
+					}
+				?>
 					<div class="info clearfix">
-				<?php 	$page_id = 153;
-						$page_data = get_page($page_id);
-						$content = apply_filters('the_content', $page_data->post_content);
-						echo $content;  ?>
+						<div class="section-title scroll-normal white fl">
+							<div class="dtb">
+								<h2 class="dtbc">
+									<?php echo get_page(196)->post_content; ?>
+								</h2>
+							</div>
+						</div>
+
+						<div class="clear-mb"></div>
+							<div class="social-wrap">
+						<?php foreach ($contacts as $oCt => $oC) {
+								foreach ($oC as $oc) {
+									echo '<a class="'.$oCt.'" href="'.$oc.'"><img src="'.MAIN_URL.'/wp-content/themes/metropolis/assets/images/'.$oCt.'-ico.png" alt="" /></a>';
+								}
+							} ?>
+							</div>
+						<div class="hotline-wrap tac">
+							<div class="txt-title justify"> H O T L I N E</div>
+							<?php foreach ($phone as $op) {
+									echo '<a href="tel:'.$op.'" class="hotline justify">'.$op.'</a>';
+								} ?>
+							<a href="<?php echo MAIN_URL ?>" target="_blank" rel="nofollow"><?php echo str_replace(array('http://', 'https://'), array('', ''), MAIN_URL) ?></a>
+						</div>
 					</div>
 				</div>
 			</div>

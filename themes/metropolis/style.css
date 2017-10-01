@@ -485,10 +485,11 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 }
 #footer .section-title{*position:absolute;margin:0 0 0 -10px}
 .ft-info{
-	margin: 20px 29% 0 0;
+	margin: 20px 27% 0 2%;
 }
 .ft-info li{
 	float: left;
+    list-style: none;
 	max-width: 250px;
 	padding: 0 10px 0 55px;
 	background-image: url(assets/images/footer-line.png);
@@ -497,12 +498,14 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 	background-size: auto;
 	background-position: left top;
 }
-.ft-info li > *{
+.ft-info br{display: block!important}
+.ft-info li{
 	font-size: 13px;
 	font-style: normal;
 	font-weight: normal;
 }
-.ft-info li p:first-of-type{
+/*.ft-info li p:first-of-type,*/ .ft-info strong{
+    display: block;
 	font-size: 14px;
 	margin-bottom: 10px;
 }
@@ -757,6 +760,7 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 	z-index: 3;
 	margin: 55px 0 0 20px;
 }
+.bot-footer .hotline-wrap{margin:55px 0 0 -50px!important}
 .social-wrap{
 	float: left;
 	margin: 10px 0 0 20px;
