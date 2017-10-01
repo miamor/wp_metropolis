@@ -839,11 +839,11 @@ body{position: relative;height:100%!important}
 	color: #606060;
 }
 .section-gioi-thieu-du-an .layer-1{
-	top: 0; right: 48%;
+	top: 0; right: 45%;
 	background-color: #fff;
 }
 .section-gioi-thieu-du-an .layer-2{
-	top: 0; left: -95%;
+	top: 0; left: -100%;
 	background-color: #5e162b;
 	-webkit-transform: skewX(33deg);
 	transform: skewX(33deg);
