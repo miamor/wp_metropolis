@@ -514,7 +514,7 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 .section-title{
 	position: relative;
 	width: 145px;
-	height: 130px;
+	height: 140px;
 	padding: 10px 13px;
 	border: 4px solid #b50742;
 }
@@ -529,7 +529,7 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 .section-title h2{
 	color: #66182e;
     font-weight: 300!important;
-	font-size: 17px;
+	font-size: 15px;
     font-family: 'UTM Avo'!important;
 	line-height: 1.25;
 	text-align: center;
@@ -598,6 +598,7 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 	margin-left: auto;
 	margin-right: auto;
 }
+.section-tien-ich .layer-2 img{height:100%;margin-left:-50%}
 
 .clear-mb{
 	display: none;
@@ -783,225 +784,225 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 	background: rgba(94,23,43,0.29);
 }
 .section-home-banner .layer-2{
-	bottom: 0; right: -85%;
+	bottom: 0; right: -100%;
 	z-index: 1;
 	background: rgba(94,23,43,0.7);
 }
 
-section.gioi-thieu-du-an{
+.section-gioi-thieu-du-an{
 	*background-image: url(assets/images/section-2-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: top right;
 	-webkit-background-size: auto 100%;
 	background-size: auto 100%;
 }
-section.gioi-thieu-du-an .container{
+.section-gioi-thieu-du-an .container{
 	top: 0;
 }
-section.gioi-thieu-du-an .block{
+.section-gioi-thieu-du-an .block{
 	margin: 0 0 250px 8.333333%;
 }
-section.gioi-thieu-du-an .section-title,
-section.vi-tri-du-an .section-title{
+.section-gioi-thieu-du-an .section-title,
+.section-vi-tri-du-an .section-title{
 	margin-top: 45px;
 }
-section.gioi-thieu-du-an .section-title{
+.section-gioi-thieu-du-an .section-title{
 	padding: 2px 8px;
 }
-section.gioi-thieu-du-an .section-title strong:nth-of-type(1){
+.section-gioi-thieu-du-an .section-title strong:nth-of-type(1){
 	font-size: 21px;
 }
-section.gioi-thieu-du-an .section-title strong:nth-of-type(2){
+.section-gioi-thieu-du-an .section-title strong:nth-of-type(2){
 	font-size: 18px;
 }
-section.gioi-thieu-du-an .section-title span{
+.section-gioi-thieu-du-an .section-title span{
 	color: #b60642;
 	font-size: 14px;
 }
-section.vi-tri-du-an .the-content p,
-section.gioi-thieu-du-an .the-content p{
+.section-vi-tri-du-an .the-content p,
+.section-gioi-thieu-du-an .the-content p{
 	margin: 4px 0;
 }
-section.vi-tri-du-an .the-content p{
+.section-vi-tri-du-an .the-content p{
 	line-height: 18px;
 }
-section.vi-tri-du-an .the-content p strong{
+.section-vi-tri-du-an .the-content p strong{
 	color: #606060;
 }
-section.gioi-thieu-du-an .layer-1{
+.section-gioi-thieu-du-an .layer-1{
 	top: 0; right: 48%;
 	background-color: #fff;
 }
-section.gioi-thieu-du-an .layer-2{
+.section-gioi-thieu-du-an .layer-2{
 	top: 0; left: -95%;
 	background-color: #5e162b;
 	-webkit-transform: skewX(33deg);
 	transform: skewX(33deg);
 }
-section.gioi-thieu-du-an .layer-pattern{
+.section-gioi-thieu-du-an .layer-pattern{
 	bottom: 0; left: 30.5%;
 }
 
-section.vi-tri-du-an{
+.section-vi-tri-du-an{
 	*background-image: url(assets/images/section-3-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: top left;
 	-webkit-background-size: auto 100%;
 	background-size: auto 100%;
 }
-section.vi-tri-du-an .block{
+.section-vi-tri-du-an .block{
 	float: right;
 	margin: 0 0 50px 0;
 }
-section.vi-tri-du-an .layer-1{
-	top: 0; left: 42.7%;
+.section-vi-tri-du-an .layer-1{
+	top: 0; left: 43%;
 	background-color: #fff;
 	-webkit-transform: skewX(33deg);
 	transform: skewX(33deg);
 }
-section.vi-tri-du-an .section-title strong:nth-of-type(1){
+.section-vi-tri-du-an .section-title strong:nth-of-type(1){
 	font-size: 23px;
 	line-height: 1;
 }
-section.vi-tri-du-an .section-title span{
+.section-vi-tri-du-an .section-title span{
 	color: #5f172b;
 	font-size: 27px;
 	font-weight: 300;
 }
-section.vi-tri-du-an .section-title span:nth-of-type(2){
+.section-vi-tri-du-an .section-title span:nth-of-type(2){
 	font-size: 24px;
 }
-section.vi-tri-du-an .section-content li{
+.section-vi-tri-du-an .section-content li{
 	margin: 20px 0 0;
 	text-align: center;
 }
-section.vi-tri-du-an .section-content li:nth-of-type(2n+1){
+.section-vi-tri-du-an .section-content li:nth-of-type(2n+1){
 	clear: both;
 }
-section.vi-tri-du-an .section-content li .row{
+.section-vi-tri-du-an .section-content li .row{
 	padding: 0 10px;
 }
-section.vi-tri-du-an .section-content li img{
+.section-vi-tri-du-an .section-content li img{
 	display: block;
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto 15px;
 }
 
-section.noi-that{
+.section-noi-that{
 	*background-image: url(assets/images/section-4-bg.jpg);
 	background-position: top right;
 	-webkit-background-size: auto 100%;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 }
-section.noi-that .layer-1{
-	left: -59%;
+.section-noi-that .layer-1{
+	left: -58.5%;
 	background-color: #5f172b;
 }
-section.noi-that .layer-2{
+.section-noi-that .layer-2{
 	left: -100%;
 	background-color: #420d1a;
 	-webkit-transform: skewX(33deg);
 	transform: skewX(33deg);
 }
-section.noi-that .layer-3{
+.section-noi-that .layer-3{
 	right: -104%;
 	background-color: #5f172b;
 }
-section.noi-that .layer-pattern{
+.section-noi-that .layer-pattern{
 	bottom: 0; left: 14.7%;
 	width: 238px;
 	height: 160px;
 	background-image: url(assets/images/pattern-2.png);
 }
 
-section.noi-that .section-title{
+.section-noi-that .section-title{
 	margin-top: 45px;
 }
-section.noi-that .section-title strong:nth-of-type(1){
+.section-noi-that .section-title strong:nth-of-type(1){
 	font-size: 15px;
 }
-section.noi-that .section-title span:nth-of-type(1){
+.section-noi-that .section-title span:nth-of-type(1){
 	font-size: 18px;
 }
-section.noi-that .section-title span:nth-of-type(2){
+.section-noi-that .section-title span:nth-of-type(2){
 	font-size: 17px;
 }
-section.noi-that .section-title span:nth-of-type(3){
+.section-noi-that .section-title span:nth-of-type(3){
 	font-size: 16px;
 }
-section.noi-that .section-title span b{
+.section-noi-that .section-title span b{
 	font-weight: bold;
 }
-section.noi-that .block{
+.section-noi-that .block{
 	padding-bottom: 250px;
 	color: #fff;
 }
 
-section.tien-ich{
+.section-tien-ich{
 	*background-image: url(assets/images/section-5-bg-l.jpg);
 	background-position: top left;
 	background-repeat: no-repeat;
 	-webkit-background-size: auto 100%;
 	background-size: auto 100%;
 }
-section.tien-ich .layer-1{
-	left: 41.5%;
+.section-tien-ich .layer-1{
+	left: 36%;
 	background-color: #fff;
 	-webkit-transform: skewX(33deg);
 	transform: skewX(33deg);
 }
-section.tien-ich .layer-2{
-	right: -74%;
+.section-tien-ich .layer-2{
+	right: -68.5%;
 	overflow: hidden;
 }
-section.tien-ich .layer-2 img{
+.section-tien-ich .layer-2 img{
 	position: relative;
 	left: -15%;
 	-webkit-transform: skewX(33deg);
 	transform: skewX(33deg);
 }
-section.tien-ich .layer-pattern{
+.section-tien-ich .layer-pattern{
 	bottom: 0; left: 51.4%;
 	width: 238px;
 	height: 160px;
 	background-image: url(assets/images/pattern-2.png);
 }
-section.tien-ich .section-title{
+.section-tien-ich .section-title{
 	padding: 3px 8px;
 }
-section.tien-ich .section-title strong:nth-of-type(1){
+.section-tien-ich .section-title strong:nth-of-type(1){
 	font-size: 18px;
 }
-section.tien-ich .section-title span:nth-of-type(1){
+.section-tien-ich .section-title span:nth-of-type(1){
 	font-size: 16px;
 }
-section.tien-ich .section-title span:nth-of-type(2){
+.section-tien-ich .section-title span:nth-of-type(2){
 	font-size: 18px;
 }
-section.tien-ich .section-title span:nth-of-type(3){
+.section-tien-ich .section-title span:nth-of-type(3){
 	font-size: 17px;
 }
-section.tien-ich .section-title span:nth-of-type(4){
+.section-tien-ich .section-title span:nth-of-type(4){
 	font-size: 17px;
 }
-section.tien-ich .block{
+.section-tien-ich .block{
 	float: right;
 	width: 27%;
 	padding-bottom: 210px;
 	margin-right: 26%;
 }
-section.tien-ich .section-title{
+.section-tien-ich .section-title{
 	margin-top: 45px;
 }
-section.tien-ich .layer-extend{
+.section-tien-ich .layer-extend{
 	bottom: 20px; left: 60px;
 	z-index: 10;
 	width: 310px;
 	color: #fff;
 }
-section.tien-ich .layer-extend a{
+.section-tien-ich .layer-extend a{
 	padding: 10px 15px;
 	margin: 0 3px 0 0;
 }
@@ -1857,16 +1858,16 @@ section.tien-ich .layer-extend a{
 	.banner-info .logo-line{
 		bottom: 130px;
 	}
-	section.gioi-thieu-du-an .layer-2{
+	.section-gioi-thieu-du-an .layer-2{
 		left: -84%;
 	}
-	section.noi-that .block{
+	.section-noi-that .block{
 		margin-left: 0;
 	}
-	section.noi-that .layer-1{
+	.section-noi-that .layer-1{
 		left: -58%;
 	}
-	section.tien-ich .layer-1{
+	.section-tien-ich .layer-1{
 		left: 35%;
 	}
 	#ban-do-tien-ich.popup .popup-inner{
@@ -1890,23 +1891,23 @@ section.tien-ich .layer-extend a{
 	.ft-info {
 		margin: 20px 25.833% 0 20px;
 	}
-	section.gioi-thieu-du-an .layer-2,
-	section.noi-that .layer-2{
+	.section-gioi-thieu-du-an .layer-2,
+	.section-noi-that .layer-2{
 		left: -100%;
 	}
-	section.gioi-thieu-du-an .layer-pattern {
+	.section-gioi-thieu-du-an .layer-pattern {
 		left: 24.5%;
 	}
-	section.vi-tri-du-an .layer-1{
+	.section-vi-tri-du-an .layer-1{
 		left: 40%;
 	}
-	section.noi-that .block{
+	.section-noi-that .block{
 		left: 5%;
 	}
-	section.tien-ich .layer-1 {
+	.section-tien-ich .layer-1 {
     	left: 38.5%;
 	}
-	section.tien-ich .layer-2{
+	.section-tien-ich .layer-2{
 		left: 81%;
 	}
 	.single-post .section-content {
@@ -1938,24 +1939,24 @@ section.tien-ich .layer-extend a{
 	.side-buttons li a:hover .text{
 		display: none;
 	}
-	section.gioi-thieu-du-an .layer-1{
+	.section-gioi-thieu-du-an .layer-1{
 		right: 42%;
 	}
-	section.gioi-thieu-du-an .layer-2{
+	.section-gioi-thieu-du-an .layer-2{
 		left: -100%;
 	}
-	section.gioi-thieu-du-an .block {
+	.section-gioi-thieu-du-an .block {
 		margin: 0 0 250px 12.333%;
 	}
 
-	section.vi-tri-du-an .layer-1{
+	.section-vi-tri-du-an .layer-1{
 		left: 28%;
 	}
 
-	section.tien-ich .layer-2{
+	.section-tien-ich .layer-2{
 		display: none;
 	}
-	section.tien-ich .block{
+	.section-tien-ich .block{
 		width: 50%;
 		margin: 0;
 	}
@@ -2133,14 +2134,14 @@ section.tien-ich .layer-extend a{
 		margin-left: -100px;
 	}
 
-	section.gioi-thieu-du-an .block {
+	.section-gioi-thieu-du-an .block {
 		margin: 0 0 180px 12.333%;
 	}
 
-	section.gioi-thieu-du-an .section-title,
-	section.vi-tri-du-an .section-title,
-	section.noi-that .section-title,
-	section.tien-ich .section-title,
+	.section-gioi-thieu-du-an .section-title,
+	.section-vi-tri-du-an .section-title,
+	.section-noi-that .section-title,
+	.section-tien-ich .section-title,
 	.section-surface .section-title{
 		margin-top: 30px;
 	}
@@ -2162,22 +2163,22 @@ section.tien-ich .layer-extend a{
 		bottom: 140px;
 	}
 
-	section.gioi-thieu-du-an .layer-pattern{
+	.section-gioi-thieu-du-an .layer-pattern{
 		left: 34%;
 	}
-	section.noi-that .layer-2{
+	.section-noi-that .layer-2{
 		left: -132%;
 	}
-	section.noi-that .layer-pattern{
+	.section-noi-that .layer-pattern{
 		left: -10%;
 	}
-	section.noi-that .block{
+	.section-noi-that .block{
 		padding-bottom: 200px;
 	}
-	section.tien-ich .layer-pattern{
+	.section-tien-ich .layer-pattern{
 		left: 40.5%;
 	}
-	section.tien-ich .layer-1{
+	.section-tien-ich .layer-1{
 		left: 40%;
 	}
 
@@ -2303,7 +2304,7 @@ section.tien-ich .layer-extend a{
 		display: none;
 	}
 
-	section.noi-that .layer-3{
+	.section-noi-that .layer-3{
 		right: -130%;
 	}
 

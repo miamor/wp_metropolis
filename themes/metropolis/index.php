@@ -25,13 +25,14 @@ foreach ($pages as $page_data) {
      echo $content;
 }
 */
-
+/*
 $childArgs = array(
 	'sort_order' => 'ASC',
 	'sort_column' => 'menu_order',
 	'child_of' => 101
 );
 $childList = get_pages($childArgs);
+
 foreach ($childList as $child) {
 	$feat_image = wp_get_attachment_image_src( get_post_thumbnail_id( $child->ID ), 'large' ); ?>
 
@@ -40,7 +41,24 @@ foreach ($childList as $child) {
   <?php echo apply_filters( 'the_content', $child->post_content); ?>
 
   </section>
-<?php } ?>
+<?php }*/
+
+include 'category-gioi-thieu-du-an.php';
+include 'category-vi-tri-du-an.php';
+include 'category-noi-that.php';
+include 'category-tien-ich.php';
+
+/*
+// giới thiệu dự án
+wpb_templates_cat('gioi-thieu-du-an');
+// vị trí dự án
+wpb_templates_cat('vi-tri-du-an');
+// nội thất
+wpb_templates_cat('noi-that');
+// tiện ích
+wpb_templates_cat('tien-ich');
+*/
+ ?>
 
 
 <!-- mat bang dien tich -->

@@ -80,6 +80,23 @@ function metropolis_custom_logo_url ($html = null) {
 	return $html;
 }
 
+function my_home_category ($query) {
+	if ( $query->is_home() && $query->is_main_query() ) {
+		$query->set('cat', '13', '14');
+	}
+}
+add_action( 'pre_get_posts', 'my_home_category' );
+
+function wpb_templates_cat ($cat) {
+	$the_query = new WP_Query( array( 'category_name' => $cat, 'posts_per_page' => 5 ) );
+
+	if ( $the_query->have_posts() ) {
+		while ( $the_query->have_posts() ) {
+			$the_query->the_post();
+			the_content();
+		}
+	}
+}
 
 function wpb_postsbycategory ($cat, $num) {
 	// the query
