@@ -203,8 +203,7 @@ var wp_vars = {"ajaxurl":"<?php echo str_replace('/', '\/', MAIN_URL) ?>\/wp-adm
 				<div class="home slide">
 				<!--	<img src="<?php echo MAIN_URL ?>/wp-content/themes/metropolis/assets/images/bn-1.jpg" alt=""> -->
 
-					<div class="header-image">
-						<img src="<?php echo get_background_image() ?>" alt="<?php bloginfo('name') ?>"/>
+					<div class="header-image" style="background-image:url(<?php echo get_background_image() ?>" alt="<?php bloginfo('name') ?>)">
 					</div><!-- .header-image -->
 
 				</div>

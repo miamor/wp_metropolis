@@ -2,6 +2,8 @@
  * JS/jQuery functions
  */
 jQuery(document).ready(function($) {
+	$('.section-home-banner').height($(window).height());
+
 	window.sr = ScrollReveal();
 	sr.reveal('.scroll-normal', {
 		duration: 1500,
