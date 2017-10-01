@@ -220,7 +220,7 @@ body{
 	max-width: 100%;
 	height: auto;
 }
-.header-image img{position: relative;width:100%}
+.header-image img{position: relative;height:100%;width:100%}
 #header,
 #order-form{
 	top: 0; left: -280px;
@@ -692,7 +692,8 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 	overflow: hidden;
 }
 .section-home-banner{
-	max-height: 700px;
+	*max-height: 700px;
+    height:100%
 }
 .home .section-home-banner{
 	max-height: none;
@@ -715,6 +716,7 @@ section.mat-bang-dien-tich br, .banner-info br, .banner-info .social-wrap, #foot
 	width: 14%;
 	top: 50px; left: 110px;
 }
+.banner-info{margin-top:-52px}
 .section-home-banner .logo img,
 .section-home-banner .logo-top img,
 .banner-info .logo-line img{
