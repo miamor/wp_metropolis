@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 29, 2017 at 01:18 PM
+-- Generation Time: Oct 01, 2017 at 03:00 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.2
 
@@ -118,7 +118,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (10, 'require_name_email', '1', 'yes'),
 (11, 'comments_notify', '1', 'yes'),
 (12, 'posts_per_rss', '10', 'yes'),
-(13, 'rss_use_excerpt', '0', 'yes'),
+(13, 'rss_use_excerpt', '1', 'yes'),
 (14, 'mailserver_url', 'mail.example.com', 'yes'),
 (15, 'mailserver_login', 'login@example.com', 'yes'),
 (16, 'mailserver_pass', 'password', 'yes'),
@@ -158,7 +158,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (50, 'upload_path', '', 'yes'),
 (51, 'blog_public', '1', 'yes'),
 (52, 'default_link_category', '2', 'yes'),
-(53, 'show_on_front', 'page', 'yes'),
+(53, 'show_on_front', 'posts', 'yes'),
 (54, 'tag_base', '', 'yes'),
 (55, 'show_avatars', '1', 'yes'),
 (56, 'avatar_rating', 'G', 'yes'),
@@ -213,12 +213,12 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (105, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (106, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (107, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(108, 'cron', 'a:4:{i:1506557317;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1506557492;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1506558834;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
+(108, 'cron', 'a:4:{i:1506859717;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1506903092;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1506904434;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
 (109, 'nonce_key', 'x1&H$581b_hscXP/JppeK=yqvO>m.wxUCGqIF:3)53B|w.wG.^?~Py|Fm(.s/]<<', 'no'),
 (110, 'nonce_salt', 'rT0@2O#Fh_K*Gxnfqbxh*p[.EwD!S3><8R->TPcxhEZnxw?U8B~)Jm[!t0#HR_NY', 'no'),
 (111, 'theme_mods_twentyseventeen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506308284;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
-(115, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.8.2.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.8.2.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.8.2-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.8.2-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.8.2\";s:7:\"version\";s:5:\"4.8.2\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1506519168;s:15:\"version_checked\";s:5:\"4.8.2\";s:12:\"translations\";a:0:{}}', 'no'),
-(120, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1506519169;s:7:\"checked\";a:2:{s:10:\"metropolis\";s:3:\"1.8\";s:13:\"theme-imperia\";s:5:\"0.0.1\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
+(115, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.8.2.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.8.2.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.8.2-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.8.2-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.8.2\";s:7:\"version\";s:5:\"4.8.2\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1506817571;s:15:\"version_checked\";s:5:\"4.8.2\";s:12:\"translations\";a:0:{}}', 'no'),
+(120, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1506817583;s:7:\"checked\";a:2:{s:10:\"metropolis\";s:3:\"1.8\";s:13:\"theme-imperia\";s:5:\"0.0.1\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
 (121, 'auth_key', 'R+8Qg4B:!Qc},5Fu<Vf<i%$^,?*}0Yu%)@A%8:TW1}aC,4(,$x2=Z[*o0P+Dbg.b', 'no'),
 (122, 'auth_salt', 'j)6yvTrDG)<y2Kru`vlrrpzRLuyWkAY7!dT]P>U7=1)F?.zVuDE`2iY2/#=<4IM9', 'no'),
 (123, 'logged_in_key', 'y#tMuOd,[b7)-L!`ML8aKT9Af{fW vHP^iKPzJMhKd:H+558)q9?cgT?zb]>F8F:', 'no'),
@@ -243,17 +243,17 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (200, '_transient_plugin_slugs', 'a:3:{i:0;s:19:\"akismet/akismet.php\";i:1;s:39:\"category_template/category_template.php\";i:2;s:9:\"hello.php\";}', 'no'),
 (201, 'recently_activated', 'a:0:{}', 'yes'),
 (202, 'theme_mods_metropolis_', 'a:2:{i:0;b:0;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506308196;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
-(215, 'category_templates', 'a:7:{i:3;s:7:\"default\";i:1;s:7:\"default\";i:8;s:7:\"default\";i:9;s:7:\"default\";i:10;s:7:\"default\";i:11;s:7:\"default\";i:12;s:7:\"default\";}', 'yes'),
+(215, 'category_templates', 'a:11:{i:3;s:7:\"default\";i:1;s:7:\"default\";i:8;s:7:\"default\";i:9;s:7:\"default\";i:10;s:7:\"default\";i:11;s:7:\"default\";i:12;s:7:\"default\";i:13;s:7:\"default\";i:14;s:7:\"default\";i:15;s:7:\"default\";i:16;s:7:\"default\";}', 'yes'),
 (227, 'theme_mods_twentysixteen', 'a:5:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;s:12:\"header_image\";s:70:\"http://localhost/wordpress/wp-content/uploads/2017/09/cropped-bn-1.jpg\";s:17:\"header_image_data\";O:8:\"stdClass\":5:{s:13:\"attachment_id\";i:75;s:3:\"url\";s:70:\"http://localhost/wordpress/wp-content/uploads/2017/09/cropped-bn-1.jpg\";s:13:\"thumbnail_url\";s:70:\"http://localhost/wordpress/wp-content/uploads/2017/09/cropped-bn-1.jpg\";s:6:\"height\";i:587;s:5:\"width\";i:1200;}s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506327288;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
-(243, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1506519168;s:8:\"response\";a:1:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":8:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:3:\"4.0\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:54:\"https://downloads.wordpress.org/plugin/akismet.4.0.zip\";s:6:\"tested\";s:5:\"4.8.1\";s:13:\"compatibility\";O:8:\"stdClass\":0:{}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:39:\"category_template/category_template.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:38:\"w.org/plugins/custom-category-template\";s:4:\"slug\";s:24:\"custom-category-template\";s:6:\"plugin\";s:39:\"category_template/category_template.php\";s:11:\"new_version\";s:3:\"0.4\";s:3:\"url\";s:55:\"https://wordpress.org/plugins/custom-category-template/\";s:7:\"package\";s:71:\"https://downloads.wordpress.org/plugin/custom-category-template.0.4.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}', 'no'),
-(267, '_transient_timeout_dash_v2_88ae138922fe95674369b1cb3d215a2b', '1506481724', 'no'),
-(268, '_transient_dash_v2_88ae138922fe95674369b1cb3d215a2b', '<div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 6: name lookup timed out</p></div><div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 6: name lookup timed out</p></div>', 'no'),
-(300, 'category_children', 'a:2:{i:1;a:3:{i:0;i:3;i:1;i:8;i:2;i:9;}i:2;a:1:{i:0;i:12;}}', 'yes'),
 (326, 'theme_mods_imperia', 'a:2:{i:0;b:0;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506510704;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
 (329, 'theme_mods_theme-imperia', 'a:2:{i:0;b:0;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506521001;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
-(333, '_site_transient_timeout_theme_roots', '1506522779', 'no'),
-(334, '_site_transient_theme_roots', 'a:2:{s:10:\"metropolis\";s:7:\"/themes\";s:13:\"theme-imperia\";s:7:\"/themes\";}', 'no'),
-(335, '_transient_is_multi_author', '0', 'yes');
+(341, '_transient_timeout_dash_v2_88ae138922fe95674369b1cb3d215a2b', '1506817173', 'no'),
+(342, '_transient_dash_v2_88ae138922fe95674369b1cb3d215a2b', '<div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 7: Failed to connect to wordpress.org port 80: Connection timed out</p></div><div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 7: Failed to connect to planet.wordpress.org port 443: Connection timed out</p></div>', 'no'),
+(355, 'category_children', 'a:3:{i:1;a:3:{i:0;i:3;i:1;i:8;i:2;i:9;}i:2;a:1:{i:0;i:12;}i:10;a:4:{i:0;i:13;i:1;i:14;i:2;i:15;i:3;i:16;}}', 'yes'),
+(380, '_site_transient_timeout_theme_roots', '1506819374', 'no'),
+(381, '_site_transient_theme_roots', 'a:2:{s:10:\"metropolis\";s:7:\"/themes\";s:13:\"theme-imperia\";s:7:\"/themes\";}', 'no'),
+(382, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1506817580;s:8:\"response\";a:1:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":8:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:3:\"4.0\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:54:\"https://downloads.wordpress.org/plugin/akismet.4.0.zip\";s:6:\"tested\";s:5:\"4.8.1\";s:13:\"compatibility\";O:8:\"stdClass\":0:{}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:39:\"category_template/category_template.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:38:\"w.org/plugins/custom-category-template\";s:4:\"slug\";s:24:\"custom-category-template\";s:6:\"plugin\";s:39:\"category_template/category_template.php\";s:11:\"new_version\";s:3:\"0.4\";s:3:\"url\";s:55:\"https://wordpress.org/plugins/custom-category-template/\";s:7:\"package\";s:71:\"https://downloads.wordpress.org/plugin/custom-category-template.0.4.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}', 'no'),
+(391, '_transient_is_multi_author', '0', 'yes');
 
 -- --------------------------------------------------------
 
@@ -422,7 +422,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (197, 89, '_edit_last', '1'),
 (198, 89, '_edit_lock', '1506477486:1'),
 (199, 91, '_edit_last', '1'),
-(200, 91, '_edit_lock', '1506520748:1'),
+(200, 91, '_edit_lock', '1506777782:1'),
 (201, 92, '_wp_attached_file', '2017/09/section-2-bg.jpg');
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (202, 92, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1800;s:6:\"height\";i:1223;s:4:\"file\";s:24:\"2017/09/section-2-bg.jpg\";s:5:\"sizes\";a:5:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:24:\"section-2-bg-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:24:\"section-2-bg-300x204.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:204;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:24:\"section-2-bg-768x522.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:522;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:25:\"section-2-bg-1024x696.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:696;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"post-thumbnail\";a:4:{s:4:\"file\";s:25:\"section-2-bg-1200x815.jpg\";s:5:\"width\";i:1200;s:6:\"height\";i:815;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
@@ -431,7 +431,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (205, 2, '_wp_trash_meta_time', '1506439175'),
 (206, 2, '_wp_desired_post_slug', 'sample-page'),
 (207, 95, '_edit_last', '1'),
-(208, 95, '_edit_lock', '1506520832:1'),
+(208, 95, '_edit_lock', '1506774577:1'),
 (209, 96, '_wp_attached_file', '2017/09/section-3-bg.jpg'),
 (210, 96, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1800;s:6:\"height\";i:1223;s:4:\"file\";s:24:\"2017/09/section-3-bg.jpg\";s:5:\"sizes\";a:5:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:24:\"section-3-bg-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:24:\"section-3-bg-300x204.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:204;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:24:\"section-3-bg-768x522.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:522;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:25:\"section-3-bg-1024x696.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:696;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"post-thumbnail\";a:4:{s:4:\"file\";s:25:\"section-3-bg-1200x815.jpg\";s:5:\"width\";i:1200;s:6:\"height\";i:815;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"1\";s:8:\"keywords\";a:0:{}}}'),
 (211, 97, '_wp_attached_file', '2017/09/section-4-bg.jpg'),
@@ -444,17 +444,17 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (218, 101, '_edit_last', '1'),
 (219, 101, '_edit_lock', '1506440586:1'),
 (220, 103, '_edit_last', '1'),
-(221, 103, '_edit_lock', '1506439938:1'),
+(221, 103, '_edit_lock', '1506774802:1'),
 (222, 105, '_edit_last', '1'),
-(223, 105, '_edit_lock', '1506529606:1'),
+(223, 105, '_edit_lock', '1506774966:1'),
 (224, 105, '_thumbnail_id', '23'),
 (225, 107, '_edit_last', '1'),
-(226, 107, '_edit_lock', '1506505713:1'),
+(226, 107, '_edit_lock', '1506775251:1'),
 (227, 107, '_thumbnail_id', '34'),
 (228, 109, '_edit_last', '1'),
-(229, 109, '_edit_lock', '1506486683:1'),
+(229, 109, '_edit_lock', '1506776353:1'),
 (230, 111, '_edit_last', '1'),
-(231, 111, '_edit_lock', '1506439967:1'),
+(231, 111, '_edit_lock', '1506774969:1'),
 (232, 114, '_edit_last', '1'),
 (233, 114, '_edit_lock', '1506485929:1'),
 (234, 116, '_edit_last', '1'),
@@ -517,7 +517,31 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (316, 163, '_wp_trash_meta_time', '1506486956'),
 (317, 37, '_wp_attachment_is_custom_background', 'metropolis'),
 (318, 167, '_wp_trash_meta_status', 'publish'),
-(319, 167, '_wp_trash_meta_time', '1506521037');
+(319, 167, '_wp_trash_meta_time', '1506521037'),
+(320, 168, '_edit_last', '1'),
+(321, 168, '_edit_lock', '1506778428:1'),
+(324, 170, '_edit_last', '1'),
+(325, 170, '_edit_lock', '1506776715:1'),
+(328, 172, '_edit_last', '1'),
+(329, 172, '_edit_lock', '1506817481:1'),
+(332, 174, '_edit_last', '1'),
+(333, 174, '_edit_lock', '1506774866:1'),
+(336, 177, '_edit_last', '1'),
+(337, 177, '_edit_lock', '1506818078:1'),
+(340, 179, '_edit_last', '1'),
+(341, 179, '_edit_lock', '1506775095:1'),
+(346, 181, '_edit_last', '1'),
+(347, 181, '_edit_lock', '1506818495:1'),
+(350, 183, '_edit_last', '1'),
+(351, 183, '_edit_lock', '1506818339:1'),
+(356, 185, '_edit_last', '1'),
+(357, 185, '_edit_lock', '1506818259:1'),
+(360, 187, '_edit_last', '1'),
+(361, 187, '_edit_lock', '1506776495:1'),
+(362, 168, '_thumbnail_id', '96'),
+(363, 172, '_thumbnail_id', '92'),
+(366, 177, '_thumbnail_id', '97'),
+(373, 181, '_thumbnail_id', '98');
 
 -- --------------------------------------------------------
 
@@ -724,7 +748,31 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (164, 1, '2017-09-27 04:36:58', '2017-09-27 04:36:58', '<div id=\"vi-tri-du-an\" class=\"section section-local posr\">\r\n<div class=\"posa layer layer-1\"></div>\r\n<div class=\"container posr clearfix\">\r\n<div class=\"block grid5 clearfix\">\r\n<div class=\"section-title scroll-normal center has-line\">\r\n<div class=\"dtb\">\r\n<h2 class=\"dtbc\"><strong>Nhất vị</strong>\r\nNhì\r\nHướng</h2>\r\n</div>\r\n</div>\r\n<div class=\"section-content the-content desktop clearfix scroll-normal\">\r\n<p class=\"tar\"><strong>Tọa lạc địa chỉ 29 Liễu Giai, Ba Đình, kết nối trực tiếp với tuyến Kim Mã - Liễu Giai, cung đường đẹp nhất Việt Nam, xung quanh là mang lưới các đại sứ quán lớn cùng nhiều cơ quan chính trị ngoại giao quốc tế, Vinhomes Metropolis hứa hẹn trở thành một khu phức hợp đẳng cấp hàng đầu tại Hà Nội:</strong></p>\r\n\r\n<ul class=\"lsn fluid\">\r\n 	<li class=\"grid6\">\r\n<div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-1.png\" alt=\"\" />Tầm nhìn thoáng về phía 4 hồ lớn của Thủ đô: Hồ Thủ Lệ, Hồ Ngọc Khánh, Hồ Giảng Võ và Hồ Tây.\r\n\r\n</div></li>\r\n 	<li class=\"grid6\">\r\n<div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-2.png\" alt=\"\" />Chỉ 20 phút tới sân bay quốc tế Nội Bài\r\n\r\n</div></li>\r\n 	<li class=\"grid6\">\r\n<div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-4.png\" alt=\"\" />Kết nối trực tiếp với tuyến tàu điện trung tâm, giao thông thuận lợi\r\n\r\n</div></li>\r\n 	<li class=\"grid6\">\r\n<div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-5.png\" alt=\"\" />Kế cận với khu ngoại giao đoàn Vạn Phúc, các đại sứ quán, các trường học, các tổ hợp TTTM, văn phòng, khách sạn và căn hộ dịch vụ\r\n\r\n</div></li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n</div>', 'Vị trí dự án', '', 'inherit', 'closed', 'closed', '', '95-revision-v1', '', '', '2017-09-27 04:36:58', '2017-09-27 04:36:58', '', 95, 'http://localhost/wordpress/index.php/2017/09/27/95-revision-v1/', 0, 'revision', '', 0),
 (165, 1, '2017-09-27 04:37:27', '2017-09-27 04:37:27', '<div class=\"section section-furniture posr\">\r\n<div class=\"posa layer layer-1\"></div>\r\n<div class=\"posa layer layer-2\"></div>\r\n<div class=\"posa layer layer-3\"></div>\r\n<div class=\"posa layer layer-pattern\"></div>\r\n<div class=\"container posr clearfix\">\r\n<div class=\"block grid4 clearfix\">\r\n<div class=\"section-title scroll-normal center white has-line\">\r\n<div class=\"dtb\">\r\n<h2 class=\"dtbc\"><strong>Sống sang</strong>\r\nở toạ độ\r\n<b>Vàng</b> của\r\nthành phố</h2>\r\n</div>\r\n</div>\r\n<div class=\"section-content the-content desktop a-btn scroll-normal list-triangle\">\r\n\r\nTất cả các căn hộ tại Vinhomes Metropolis được thiết kế với phong cách hiện đại, mang lại không gian sống đẳng cấp bậc nhất cho các chủ nhân tương lai:\r\n<ul class=\"lsn clearfix\">\r\n 	<li>Tầm nhìn hướng hồ rộng mở từ những logia rộng rãi với ban công kính sang trọng, sử dụng kính hộp Low-E giúp cân bằng nhiệt, hạn chế tia UV và giảm điện năng tiêu thụ.</li>\r\n 	<li>Trang bị bồn tắm nằm sang trọng, và các thiết bị vệ sinh mang thương hiệu Duravit/ Hansgrohe hàng đầu thế giới, biến không gian phụ thành điểm nhấn đắt giá cho các căn hộ.</li>\r\n 	<li>Hệ thống điều hòa trung tâm 2 chiều giúp tiết kiệm điện năng, tối ưu hóa không gian và công năng sử dụng.</li>\r\n</ul>\r\n<p style=\"text-align: center;\"><a href=\"http://metropolis.vinhomes.vn/thu-vien-anh/\">Thư viện ảnh/video</a></p>\r\n\r\n</div>\r\n</div>\r\n</div>\r\n</div>', 'Nội thất', '', 'inherit', 'closed', 'closed', '', '105-revision-v1', '', '', '2017-09-27 04:37:27', '2017-09-27 04:37:27', '', 105, 'http://localhost/wordpress/index.php/2017/09/27/105-revision-v1/', 0, 'revision', '', 0),
 (166, 1, '2017-09-27 04:37:44', '2017-09-27 04:37:44', '<div class=\"section section-facilities posr\">\r\n<div class=\"posa layer layer-1\"></div>\r\n<div class=\"posa layer layer-2\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/section-5-bg-r.jpg\" alt=\"\" /></div>\r\n<div class=\"posa layer layer-pattern\"></div>\r\n<div id=\"tien-ich\" class=\"container posr clearfix\">\r\n<div class=\"block grid3 clearfix\">\r\n<div class=\"section-title scroll-normal center has-line\">\r\n<div class=\"dtb\">\r\n<h2 class=\"dtbc\">Tận hưởng\r\n<strong>đẳng cấp</strong>\r\n<b>Sống</b> của\r\nngười\r\nthành đạt</h2>\r\n</div>\r\n</div>\r\n<div class=\"section-content the-content desktop scroll-normal\">\r\n\r\nVinhomes Metropolis sở hữu những tiện ích 5 sao thời thượng cho cuộc sống đẳng cấp của giới thượng lưu. Sống ở vị trí trung tâm của thành phố đang phát triển cùng tốc độ của thế giới, cư dân tương lai của Vinhomes Metropolis sẽ được tận hưởng những giá trị sống lý tưởng bậc nhất. Trẻ em được thừa hưởng những giá trị giáo dục chất lượng cao của trường mẫu giáo và khối trường tiểu học, THCS Vinschool.\r\n\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"layer-extend posa the-content desktop scroll-normal a-btn\">\r\n<p style=\"padding: 0 0 0 10px; border-left: 1px solid #fff;\">Lấy cảm hứng từ hình ảnh khu vườn nổi đầy sáng tạo, những kiến trúc sư tài ba của Atkins – đơn vị tư vấn thiết kế kiến trúc hàng đầu thế giới đã kiến tạo cảnh quan nội khu Vinhomes Metropolis hài hòa giữa không gian cây xanh và mặt nước, tạo nên những bối cảnh độc đáo, ấn tượng dành riêng trải nghiệm của cư dân.</p>\r\n<a class=\"ban-do-tien-ich\" href=\"http://metropolis.vinhomes.vn/ban-do-tien-ich/\">Xem bản đồ tiện ích</a>\r\n\r\n</div>\r\n</div>', 'Tiện ích', '', 'inherit', 'closed', 'closed', '', '107-revision-v1', '', '', '2017-09-27 04:37:44', '2017-09-27 04:37:44', '', 107, 'http://localhost/wordpress/index.php/2017/09/27/107-revision-v1/', 0, 'revision', '', 0),
-(167, 1, '2017-09-27 14:03:57', '2017-09-27 14:03:57', '{\n    \"metropolis::background_image\": {\n        \"value\": \"http://localhost/wordpress/wp-content/uploads/2017/09/20.jpg\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'b0f66a8f-39d6-4714-a456-ae0ec98d438a', '', '', '2017-09-27 14:03:57', '2017-09-27 14:03:57', '', 0, 'http://localhost/wordpress/index.php/2017/09/27/b0f66a8f-39d6-4714-a456-ae0ec98d438a/', 0, 'customize_changeset', '', 0);
+(167, 1, '2017-09-27 14:03:57', '2017-09-27 14:03:57', '{\n    \"metropolis::background_image\": {\n        \"value\": \"http://localhost/wordpress/wp-content/uploads/2017/09/20.jpg\",\n        \"type\": \"theme_mod\",\n        \"user_id\": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'b0f66a8f-39d6-4714-a456-ae0ec98d438a', '', '', '2017-09-27 14:03:57', '2017-09-27 14:03:57', '', 0, 'http://localhost/wordpress/index.php/2017/09/27/b0f66a8f-39d6-4714-a456-ae0ec98d438a/', 0, 'customize_changeset', '', 0),
+(168, 1, '2017-09-30 12:22:46', '2017-09-30 12:22:46', '<strong>Vị thế</strong>\r\n                        Khẳng định\r\n                        Đẳng cấp,\r\n                        <strong>Đẳng cấp</strong>\r\n                        khẳng định\r\n                        Giá trị', 'Khung title', '', 'publish', 'closed', 'open', '', 'khung-title', '', '', '2017-09-30 13:25:47', '2017-09-30 13:25:47', '', 0, 'http://localhost/wordpress/?p=168', 0, 'post', '', 0),
+(169, 1, '2017-09-30 12:22:46', '2017-09-30 12:22:46', '<strong>Vị thế</strong>\r\n                        Khẳng định\r\n                        Đẳng cấp,\r\n                        <strong>Đẳng cấp</strong>\r\n                        khẳng định\r\n                        Giá trị', 'Khung title', '', 'inherit', 'closed', 'closed', '', '168-revision-v1', '', '', '2017-09-30 12:22:46', '2017-09-30 12:22:46', '', 168, 'http://localhost/wordpress/index.php/2017/09/30/168-revision-v1/', 0, 'revision', '', 0),
+(170, 1, '2017-09-30 12:25:42', '2017-09-30 12:25:42', '                <ul>\r\n                 	<li>Chủ đầu tư: Công Ty Cổ phần Tư vấn Đầu tư và Đầu tư Việt Nam</li>\r\n                 	<li>Vị trí: 29 Liễu Giai, Ba Đình, Hà Nội, hướng Bắc nhìn ra Hồ Tây, hướng Đông Nam nhìn ra Hồ Giảng Võ, hướng Tây Nam nhìn ra Hồ Thủ Lệ và Hồ Ngọc Khánh</li>\r\n                 	<li>Loại hình phát triển: Khu phức hợp hiện đại bao gồm tổ hợp căn hộ sang trọng, văn phòng cao cấp, trung tâm thương mại Vincom hiện đại và trường mầm non, tiểu học, THCS Vinschool chất lượng cao</li>\r\n                 	<li>Tổng diện tích: khoảng 3,5 hecta</li>\r\n                 	<li>Khu căn hộ Vinhomes Metropolis: Bao gồm 3 tòa tháp M1, M2, M3 cao từ 41 đến 45 tầng</li>\r\n                 	<li>Loại hình căn hộ: Căn hộ hiện đại, đẳng cấp, sang trọng từ 51m<sup>2</sup> đến 149m<sup>2</sup> với từ 1 – 4 phòng ngủ và các căn Penthouse, biệt thự trên không Sky Villa đặc biệt.</li>\r\n                 	<li>Đơn vị thiết kế: Atkins (Anh Quốc)</li>\r\n                 	<li>Hồ sơ pháp lý được cung cấp trực tiếp tại Sàn giao dịch Bất động sản Vinhomes - Công ty TNHH kinh doanh Bất động sản Vinhomes 1 - Tầng 1 - Trung tâm thương mại Vincom Nguyễn Chí Thanh - 54A Nguyễn Chí Thanh - Phường Láng Thượng - Quận Đống Đa - Thành phố Hà Nội, Việt Nam\"</li>\r\n                </ul>\r\n', 'Thông tin', '', 'publish', 'closed', 'open', '', 'thong-tin', '', '', '2017-09-30 12:25:42', '2017-09-30 12:25:42', '', 0, 'http://localhost/wordpress/?p=170', 0, 'post', '', 0),
+(171, 1, '2017-09-30 12:25:42', '2017-09-30 12:25:42', '                <ul>\r\n                 	<li>Chủ đầu tư: Công Ty Cổ phần Tư vấn Đầu tư và Đầu tư Việt Nam</li>\r\n                 	<li>Vị trí: 29 Liễu Giai, Ba Đình, Hà Nội, hướng Bắc nhìn ra Hồ Tây, hướng Đông Nam nhìn ra Hồ Giảng Võ, hướng Tây Nam nhìn ra Hồ Thủ Lệ và Hồ Ngọc Khánh</li>\r\n                 	<li>Loại hình phát triển: Khu phức hợp hiện đại bao gồm tổ hợp căn hộ sang trọng, văn phòng cao cấp, trung tâm thương mại Vincom hiện đại và trường mầm non, tiểu học, THCS Vinschool chất lượng cao</li>\r\n                 	<li>Tổng diện tích: khoảng 3,5 hecta</li>\r\n                 	<li>Khu căn hộ Vinhomes Metropolis: Bao gồm 3 tòa tháp M1, M2, M3 cao từ 41 đến 45 tầng</li>\r\n                 	<li>Loại hình căn hộ: Căn hộ hiện đại, đẳng cấp, sang trọng từ 51m<sup>2</sup> đến 149m<sup>2</sup> với từ 1 – 4 phòng ngủ và các căn Penthouse, biệt thự trên không Sky Villa đặc biệt.</li>\r\n                 	<li>Đơn vị thiết kế: Atkins (Anh Quốc)</li>\r\n                 	<li>Hồ sơ pháp lý được cung cấp trực tiếp tại Sàn giao dịch Bất động sản Vinhomes - Công ty TNHH kinh doanh Bất động sản Vinhomes 1 - Tầng 1 - Trung tâm thương mại Vincom Nguyễn Chí Thanh - 54A Nguyễn Chí Thanh - Phường Láng Thượng - Quận Đống Đa - Thành phố Hà Nội, Việt Nam\"</li>\r\n                </ul>\r\n', 'Thông tin', '', 'inherit', 'closed', 'closed', '', '170-revision-v1', '', '', '2017-09-30 12:25:42', '2017-09-30 12:25:42', '', 170, 'http://localhost/wordpress/index.php/2017/09/30/170-revision-v1/', 0, 'revision', '', 0),
+(172, 1, '2017-09-30 12:33:26', '2017-09-30 12:33:26', '<strong>Nhất vị</strong>\r\nNhì\r\nHướng', 'Khung title', '', 'publish', 'closed', 'open', '', 'khung-title-2', '', '', '2017-10-01 00:27:01', '2017-10-01 00:27:01', '', 0, 'http://localhost/wordpress/?p=172', 0, 'post', '', 0),
+(173, 1, '2017-09-30 12:33:26', '2017-09-30 12:33:26', '<strong>Nhất vị</strong>\r\n                        Nhì\r\n                        Hướng', 'Khung title', '', 'inherit', 'closed', 'closed', '', '172-revision-v1', '', '', '2017-09-30 12:33:26', '2017-09-30 12:33:26', '', 172, 'http://localhost/wordpress/index.php/2017/09/30/172-revision-v1/', 0, 'revision', '', 0),
+(174, 1, '2017-09-30 12:34:04', '2017-09-30 12:34:04', '<p class=\"tar\"><strong>Tọa lạc địa chỉ 29 Liễu Giai, Ba Đình, kết nối trực tiếp với tuyến Kim Mã - Liễu Giai, cung đường đẹp nhất Việt Nam, xung quanh là mang lưới các đại sứ quán lớn cùng nhiều cơ quan chính trị ngoại giao quốc tế, Vinhomes Metropolis hứa hẹn trở thành một khu phức hợp đẳng cấp hàng đầu tại Hà Nội:</strong></p>\r\n\r\n                <ul class=\"lsn fluid\">\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-1.png\" alt=\"\" />Tầm nhìn thoáng về phía 4 hồ lớn của Thủ đô: Hồ Thủ Lệ, Hồ Ngọc Khánh, Hồ Giảng Võ và Hồ Tây.\r\n\r\n                </div></li>\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-2.png\" alt=\"\" />Chỉ 20 phút tới sân bay quốc tế Nội Bài\r\n\r\n                </div></li>\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-4.png\" alt=\"\" />Kết nối trực tiếp với tuyến tàu điện trung tâm, giao thông thuận lợi\r\n\r\n                </div></li>\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-5.png\" alt=\"\" />Kế cận với khu ngoại giao đoàn Vạn Phúc, các đại sứ quán, các trường học, các tổ hợp TTTM, văn phòng, khách sạn và căn hộ dịch vụ\r\n\r\n                </div></li>\r\n                </ul>', 'Info', '', 'publish', 'closed', 'open', '', 'info', '', '', '2017-09-30 12:34:04', '2017-09-30 12:34:04', '', 0, 'http://localhost/wordpress/?p=174', 0, 'post', '', 0),
+(175, 1, '2017-09-30 12:34:04', '2017-09-30 12:34:04', '<p class=\"tar\"><strong>Tọa lạc địa chỉ 29 Liễu Giai, Ba Đình, kết nối trực tiếp với tuyến Kim Mã - Liễu Giai, cung đường đẹp nhất Việt Nam, xung quanh là mang lưới các đại sứ quán lớn cùng nhiều cơ quan chính trị ngoại giao quốc tế, Vinhomes Metropolis hứa hẹn trở thành một khu phức hợp đẳng cấp hàng đầu tại Hà Nội:</strong></p>\r\n\r\n                <ul class=\"lsn fluid\">\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-1.png\" alt=\"\" />Tầm nhìn thoáng về phía 4 hồ lớn của Thủ đô: Hồ Thủ Lệ, Hồ Ngọc Khánh, Hồ Giảng Võ và Hồ Tây.\r\n\r\n                </div></li>\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-2.png\" alt=\"\" />Chỉ 20 phút tới sân bay quốc tế Nội Bài\r\n\r\n                </div></li>\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-4.png\" alt=\"\" />Kết nối trực tiếp với tuyến tàu điện trung tâm, giao thông thuận lợi\r\n\r\n                </div></li>\r\n                 	<li class=\"grid6\">\r\n                <div class=\"row clearfix\"><img src=\"http://metropolis.vinhomes.vn/wp-content/themes/metropolis/assets/images/s3-5.png\" alt=\"\" />Kế cận với khu ngoại giao đoàn Vạn Phúc, các đại sứ quán, các trường học, các tổ hợp TTTM, văn phòng, khách sạn và căn hộ dịch vụ\r\n\r\n                </div></li>\r\n                </ul>', 'Info', '', 'inherit', 'closed', 'closed', '', '174-revision-v1', '', '', '2017-09-30 12:34:04', '2017-09-30 12:34:04', '', 174, 'http://localhost/wordpress/index.php/2017/09/30/174-revision-v1/', 0, 'revision', '', 0),
+(176, 1, '2017-09-30 12:35:51', '2017-09-30 12:35:51', '<div class=\"section section-furniture posr\">\n<div class=\"posa layer layer-1\"></div>\n<div class=\"posa layer layer-2\"></div>\n<div class=\"posa layer layer-3\"></div>\n<div class=\"posa layer layer-pattern\"></div>\n<div class=\"container posr clearfix\">\n<div class=\"block grid4 clearfix\">\n<div class=\"section-title scroll-normal center white has-line\">\n<div class=\"dtb\">\n<h2 class=\"dtbc\"><strong>Sống sang</strong>\nở toạ độ\n<b>Vàng</b> của\nthành phố</h2>\n</div>\n</div>\n<div class=\"section-content the-content desktop a-btn scroll-normal list-triangle\">\n\nTất cả các căn hộ tại Vinhomes Metropolis được thiết kế với phong cách hiện đại, mang lại không gian sống đẳng cấp bậc nhất cho các chủ nhân tương lai:\n<ul class=\"lsn clearfix\">\n 	<li>Tầm nhìn hướng hồ rộng mở từ những logia rộng rãi với ban công kính sang trọng, sử dụng kính hộp Low-E giúp cân bằng nhiệt, hạn chế tia UV và giảm điện năng tiêu thụ.</li>\n 	<li>Trang bị bồn tắm nằm sang trọng, và các thiết bị vệ sinh mang thương hiệu Duravit/ Hansgrohe hàng đầu thế giới, biến không gian phụ thành điểm nhấn đắt giá cho các căn hộ.</li>\n 	<li>Hệ thống điều hòa trung tâm 2 chiều giúp tiết kiệm điện năng, tối ưu hóa không gian và công năng sử dụng.</li>\n</ul>\n<p style=\"text-align: center;\"><a href=\"http://metropolis.vinhomes.vn/thu-vien-anh/\">Thư viện ảnh/video</a></p>\n\n</div>\n</div>\n</div>\n</div>', 'Nội thất', '', 'inherit', 'closed', 'closed', '', '105-autosave-v1', '', '', '2017-09-30 12:35:51', '2017-09-30 12:35:51', '', 105, 'http://localhost/wordpress/index.php/2017/09/30/105-autosave-v1/', 0, 'revision', '', 0),
+(177, 1, '2017-09-30 12:36:58', '2017-09-30 12:36:58', '<strong>Sống sang</strong>\r\nở toạ độ\r\n<b>Vàng</b> của\r\nthành phố', 'Khung title', '', 'publish', 'closed', 'open', '', 'khung-title-3', '', '', '2017-10-01 00:27:53', '2017-10-01 00:27:53', '', 0, 'http://localhost/wordpress/?p=177', 0, 'post', '', 0),
+(178, 1, '2017-09-30 12:36:58', '2017-09-30 12:36:58', '                    <strong>Sống sang</strong>\r\n                    ở toạ độ\r\n                    <b>Vàng</b> của\r\n                    thành phố\r\n', 'Khung title', '', 'inherit', 'closed', 'closed', '', '177-revision-v1', '', '', '2017-09-30 12:36:58', '2017-09-30 12:36:58', '', 177, 'http://localhost/wordpress/index.php/2017/09/30/177-revision-v1/', 0, 'revision', '', 0),
+(179, 1, '2017-09-30 12:37:42', '2017-09-30 12:37:42', '            Tất cả các căn hộ tại Vinhomes Metropolis được thiết kế với phong cách hiện đại, mang lại không gian sống đẳng cấp bậc nhất cho các chủ nhân tương lai:\r\n            <ul class=\"lsn clearfix\">\r\n             	<li>Tầm nhìn hướng hồ rộng mở từ những logia rộng rãi với ban công kính sang trọng, sử dụng kính hộp Low-E giúp cân bằng nhiệt, hạn chế tia UV và giảm điện năng tiêu thụ.</li>\r\n             	<li>Trang bị bồn tắm nằm sang trọng, và các thiết bị vệ sinh mang thương hiệu Duravit/ Hansgrohe hàng đầu thế giới, biến không gian phụ thành điểm nhấn đắt giá cho các căn hộ.</li>\r\n             	<li>Hệ thống điều hòa trung tâm 2 chiều giúp tiết kiệm điện năng, tối ưu hóa không gian và công năng sử dụng.</li>\r\n            </ul>\r\n', 'Info', '', 'publish', 'closed', 'open', '', 'info-2', '', '', '2017-09-30 12:38:55', '2017-09-30 12:38:55', '', 0, 'http://localhost/wordpress/?p=179', 0, 'post', '', 0),
+(180, 1, '2017-09-30 12:37:42', '2017-09-30 12:37:42', '            Tất cả các căn hộ tại Vinhomes Metropolis được thiết kế với phong cách hiện đại, mang lại không gian sống đẳng cấp bậc nhất cho các chủ nhân tương lai:\r\n            <ul class=\"lsn clearfix\">\r\n             	<li>Tầm nhìn hướng hồ rộng mở từ những logia rộng rãi với ban công kính sang trọng, sử dụng kính hộp Low-E giúp cân bằng nhiệt, hạn chế tia UV và giảm điện năng tiêu thụ.</li>\r\n             	<li>Trang bị bồn tắm nằm sang trọng, và các thiết bị vệ sinh mang thương hiệu Duravit/ Hansgrohe hàng đầu thế giới, biến không gian phụ thành điểm nhấn đắt giá cho các căn hộ.</li>\r\n             	<li>Hệ thống điều hòa trung tâm 2 chiều giúp tiết kiệm điện năng, tối ưu hóa không gian và công năng sử dụng.</li>\r\n            </ul>\r\n', 'Info', '', 'inherit', 'closed', 'closed', '', '179-revision-v1', '', '', '2017-09-30 12:37:42', '2017-09-30 12:37:42', '', 179, 'http://localhost/wordpress/index.php/2017/09/30/179-revision-v1/', 0, 'revision', '', 0),
+(181, 1, '2017-09-30 12:41:00', '2017-09-30 12:41:00', 'Tận hưởng\r\n            <strong>đẳng cấp</strong>\r\n            <b>Sống</b> của\r\n            người\r\n            thành đạt', 'Khung title', '', 'publish', 'closed', 'open', '', 'khung-title-4', '', '', '2017-10-01 00:41:33', '2017-10-01 00:41:33', '', 0, 'http://localhost/wordpress/?p=181', 0, 'post', '', 0),
+(182, 1, '2017-09-30 12:41:00', '2017-09-30 12:41:00', 'Tận hưởng\r\n            <strong>đẳng cấp</strong>\r\n            <b>Sống</b> của\r\n            người\r\n            thành đạt', 'Khung title', '', 'inherit', 'closed', 'closed', '', '181-revision-v1', '', '', '2017-09-30 12:41:00', '2017-09-30 12:41:00', '', 181, 'http://localhost/wordpress/index.php/2017/09/30/181-revision-v1/', 0, 'revision', '', 0),
+(183, 1, '2017-09-30 12:41:58', '2017-09-30 12:41:58', '            Vinhomes Metropolis sở hữu những tiện ích 5 sao thời thượng cho cuộc sống đẳng cấp của giới thượng lưu. Sống ở vị trí trung tâm của thành phố đang phát triển cùng tốc độ của thế giới, cư dân tương lai của Vinhomes Metropolis sẽ được tận hưởng những giá trị sống lý tưởng bậc nhất. Trẻ em được thừa hưởng những giá trị giáo dục chất lượng cao của trường mẫu giáo và khối trường tiểu học, THCS Vinschool.\r\n', 'Info 1', '', 'publish', 'closed', 'open', '', 'info-1', '', '', '2017-09-30 12:42:04', '2017-09-30 12:42:04', '', 0, 'http://localhost/wordpress/?p=183', 0, 'post', '', 0),
+(184, 1, '2017-09-30 12:41:58', '2017-09-30 12:41:58', '            Vinhomes Metropolis sở hữu những tiện ích 5 sao thời thượng cho cuộc sống đẳng cấp của giới thượng lưu. Sống ở vị trí trung tâm của thành phố đang phát triển cùng tốc độ của thế giới, cư dân tương lai của Vinhomes Metropolis sẽ được tận hưởng những giá trị sống lý tưởng bậc nhất. Trẻ em được thừa hưởng những giá trị giáo dục chất lượng cao của trường mẫu giáo và khối trường tiểu học, THCS Vinschool.\r\n', 'Info 1', '', 'inherit', 'closed', 'closed', '', '183-revision-v1', '', '', '2017-09-30 12:41:58', '2017-09-30 12:41:58', '', 183, 'http://localhost/wordpress/index.php/2017/09/30/183-revision-v1/', 0, 'revision', '', 0),
+(185, 1, '2017-09-30 12:42:34', '2017-09-30 12:42:34', 'Lấy cảm hứng từ hình ảnh khu vườn nổi đầy sáng tạo, những kiến trúc sư tài ba của Atkins – đơn vị tư vấn thiết kế kiến trúc hàng đầu thế giới đã kiến tạo cảnh quan nội khu Vinhomes Metropolis hài hòa giữa không gian cây xanh và mặt nước, tạo nên những bối cảnh độc đáo, ấn tượng dành riêng trải nghiệm của cư dân.\r\n', 'Info 2', '', 'publish', 'closed', 'open', '', 'info-2-2', '', '', '2017-10-01 00:37:35', '2017-10-01 00:37:35', '', 0, 'http://localhost/wordpress/?p=185', 0, 'post', '', 0),
+(186, 1, '2017-09-30 12:42:34', '2017-09-30 12:42:34', '            Lấy cảm hứng từ hình ảnh khu vườn nổi đầy sáng tạo, những kiến trúc sư tài ba của Atkins – đơn vị tư vấn thiết kế kiến trúc hàng đầu thế giới đã kiến tạo cảnh quan nội khu Vinhomes Metropolis hài hòa giữa không gian cây xanh và mặt nước, tạo nên những bối cảnh độc đáo, ấn tượng dành riêng trải nghiệm của cư dân.\r\n', 'Info 2', '', 'inherit', 'closed', 'closed', '', '185-revision-v1', '', '', '2017-09-30 12:42:34', '2017-09-30 12:42:34', '', 185, 'http://localhost/wordpress/index.php/2017/09/30/185-revision-v1/', 0, 'revision', '', 0),
+(187, 1, '2017-09-30 13:02:01', '2017-09-30 13:02:01', '', 'Home', '', 'publish', 'closed', 'closed', '', 'home', '', '', '2017-09-30 13:02:01', '2017-09-30 13:02:01', '', 0, 'http://localhost/wordpress/?page_id=187', 0, 'page', '', 0),
+(188, 1, '2017-09-30 13:02:01', '2017-09-30 13:02:01', '', 'Home', '', 'inherit', 'closed', 'closed', '', '187-revision-v1', '', '', '2017-09-30 13:02:01', '2017-09-30 13:02:01', '', 187, 'http://localhost/wordpress/index.php/2017/09/30/187-revision-v1/', 0, 'revision', '', 0),
+(189, 1, '2017-09-30 13:34:37', '2017-09-30 13:34:37', '<strong>Vị thế</strong>\nKhẳng định\nĐẳng cấp,\n<strong>Đẳng cấp</strong>\nkhẳng định\nGiá trị', 'Khung title', '', 'inherit', 'closed', 'closed', '', '168-autosave-v1', '', '', '2017-09-30 13:34:37', '2017-09-30 13:34:37', '', 168, 'http://localhost/wordpress/index.php/2017/09/30/168-autosave-v1/', 0, 'revision', '', 0),
+(190, 1, '2017-10-01 00:27:01', '2017-10-01 00:27:01', '<strong>Nhất vị</strong>\r\nNhì\r\nHướng', 'Khung title', '', 'inherit', 'closed', 'closed', '', '172-revision-v1', '', '', '2017-10-01 00:27:01', '2017-10-01 00:27:01', '', 172, 'http://localhost/wordpress/index.php/2017/10/01/172-revision-v1/', 0, 'revision', '', 0),
+(191, 1, '2017-10-01 00:27:41', '2017-10-01 00:27:41', '<strong>Sống sang</strong>\r\nở toạ độ\r\n<b>Vàng</b> của\r\nthành phố', 'Khung title', '', 'inherit', 'closed', 'closed', '', '177-revision-v1', '', '', '2017-10-01 00:27:41', '2017-10-01 00:27:41', '', 177, 'http://localhost/wordpress/index.php/2017/10/01/177-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -768,7 +816,11 @@ INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (9, 'Hoạt động cộng đồng', 'hoat-dong-cong-dong', 0),
 (10, 'Templates', 'templates', 0),
 (11, 'Tài liệu bán hàng', 'tai-lieu-ban-hang', 0),
-(12, 'Video', 'video', 0);
+(12, 'Video', 'video', 0),
+(13, 'Giới thiệu dự án', 'gioi-thieu-du-an', 0),
+(14, 'Vị trí dự án', 'vi-tri-du-an', 0),
+(15, 'Nội thất', 'noi-that', 0),
+(16, 'Tiện ích', 'tien-ich', 0);
 
 -- --------------------------------------------------------
 
@@ -810,7 +862,16 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (83, 8, 0),
 (87, 10, 0),
 (89, 10, 0),
-(127, 11, 0);
+(127, 11, 0),
+(168, 13, 0),
+(170, 13, 0),
+(172, 14, 0),
+(174, 14, 0),
+(177, 15, 0),
+(179, 15, 0),
+(181, 16, 0),
+(183, 16, 0),
+(185, 16, 0);
 
 -- --------------------------------------------------------
 
@@ -843,7 +904,11 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 (9, 9, 'category', '', 1, 0),
 (10, 10, 'category', '', 0, 2),
 (11, 11, 'category', '', 0, 1),
-(12, 12, 'category', '', 2, 0);
+(12, 12, 'category', '', 2, 0),
+(13, 13, 'category', '', 10, 2),
+(14, 14, 'category', '', 10, 2),
+(15, 15, 'category', '', 10, 2),
+(16, 16, 'category', '', 10, 3);
 
 -- --------------------------------------------------------
 
@@ -877,13 +942,15 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (12, 1, 'wp_user_level', '10'),
 (13, 1, 'dismissed_wp_pointers', ''),
 (14, 1, 'show_welcome_panel', '1'),
-(15, 1, 'session_tokens', 'a:1:{s:64:\"3f0eae8b4ad0cd2e1b4e3d33187dc2922892c3c8094ec4c0fc7ee973bec6eb26\";a:4:{s:10:\"expiration\";i:1507507750;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506298150;}}'),
+(15, 1, 'session_tokens', 'a:2:{s:64:\"3f0eae8b4ad0cd2e1b4e3d33187dc2922892c3c8094ec4c0fc7ee973bec6eb26\";a:4:{s:10:\"expiration\";i:1507507750;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506298150;}s:64:\"532299ad4ea80796e80b5ca4630952c84e084e6f30928dbfd9672e36918fc911\";a:4:{s:10:\"expiration\";i:1507983556;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506773956;}}'),
 (16, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (17, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}'),
-(18, 1, 'wp_user-settings', 'editor=tinymce&libraryContent=browse'),
-(19, 1, 'wp_user-settings-time', '1506520972'),
+(18, 1, 'wp_user-settings', 'editor=html&libraryContent=browse'),
+(19, 1, 'wp_user-settings-time', '1506818244'),
 (20, 1, 'closedpostboxes_post', 'a:1:{i:0;s:9:\"formatdiv\";}'),
-(21, 1, 'metaboxhidden_post', 'a:7:{i:0;s:11:\"postexcerpt\";i:1;s:13:\"trackbacksdiv\";i:2;s:10:\"postcustom\";i:3;s:16:\"commentstatusdiv\";i:4;s:11:\"commentsdiv\";i:5;s:7:\"slugdiv\";i:6;s:9:\"authordiv\";}');
+(21, 1, 'metaboxhidden_post', 'a:7:{i:0;s:11:\"postexcerpt\";i:1;s:13:\"trackbacksdiv\";i:2;s:10:\"postcustom\";i:3;s:16:\"commentstatusdiv\";i:4;s:11:\"commentsdiv\";i:5;s:7:\"slugdiv\";i:6;s:9:\"authordiv\";}'),
+(22, 1, 'closedpostboxes_page', 'a:3:{i:0;s:9:\"submitdiv\";i:1;s:13:\"pageparentdiv\";i:2;s:12:\"postimagediv\";}'),
+(23, 1, 'metaboxhidden_page', 'a:5:{i:0;s:10:\"postcustom\";i:1;s:16:\"commentstatusdiv\";i:2;s:11:\"commentsdiv\";i:3;s:7:\"slugdiv\";i:4;s:9:\"authordiv\";}');
 
 -- --------------------------------------------------------
 
@@ -1037,17 +1104,17 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=336;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=392;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=320;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=376;
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=168;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=192;
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
 --
@@ -1057,17 +1124,17 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 --
 -- AUTO_INCREMENT for table `wp_users`
 --
