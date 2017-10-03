@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 01, 2017 at 04:16 AM
+-- Generation Time: Oct 03, 2017 at 04:04 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.2
 
@@ -106,8 +106,8 @@ CREATE TABLE `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost/wordpress', 'yes'),
-(2, 'home', 'http://localhost/wordpress', 'yes'),
+(1, 'siteurl', 'http://45.119.82.40/wordpress', 'yes'),
+(2, 'home', 'http://45.119.82.40/wordpress', 'yes'),
 (3, 'blogname', 'Vinhomes', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
@@ -247,12 +247,13 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (227, 'theme_mods_twentysixteen', 'a:5:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;s:12:\"header_image\";s:70:\"http://localhost/wordpress/wp-content/uploads/2017/09/cropped-bn-1.jpg\";s:17:\"header_image_data\";O:8:\"stdClass\":5:{s:13:\"attachment_id\";i:75;s:3:\"url\";s:70:\"http://localhost/wordpress/wp-content/uploads/2017/09/cropped-bn-1.jpg\";s:13:\"thumbnail_url\";s:70:\"http://localhost/wordpress/wp-content/uploads/2017/09/cropped-bn-1.jpg\";s:6:\"height\";i:587;s:5:\"width\";i:1200;}s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506327288;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
 (326, 'theme_mods_imperia', 'a:2:{i:0;b:0;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506510704;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
 (329, 'theme_mods_theme-imperia', 'a:2:{i:0;b:0;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1506521001;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:4:{i:0;s:6:\"text-2\";i:1;s:6:\"text-3\";i:2;s:6:\"text-4\";i:3;s:6:\"text-5\";}s:9:\"sidebar-1\";a:0:{}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
-(341, '_transient_timeout_dash_v2_88ae138922fe95674369b1cb3d215a2b', '1506817173', 'no'),
-(342, '_transient_dash_v2_88ae138922fe95674369b1cb3d215a2b', '<div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 7: Failed to connect to wordpress.org port 80: Connection timed out</p></div><div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 7: Failed to connect to planet.wordpress.org port 443: Connection timed out</p></div>', 'no'),
 (355, 'category_children', 'a:3:{i:1;a:3:{i:0;i:3;i:1;i:8;i:2;i:9;}i:2;a:1:{i:0;i:12;}i:10;a:4:{i:0;i:13;i:1;i:14;i:2;i:15;i:3;i:16;}}', 'yes'),
 (380, '_site_transient_timeout_theme_roots', '1506819374', 'no'),
 (381, '_site_transient_theme_roots', 'a:2:{s:10:\"metropolis\";s:7:\"/themes\";s:13:\"theme-imperia\";s:7:\"/themes\";}', 'no'),
-(382, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1506817580;s:8:\"response\";a:1:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":8:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:3:\"4.0\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:54:\"https://downloads.wordpress.org/plugin/akismet.4.0.zip\";s:6:\"tested\";s:5:\"4.8.1\";s:13:\"compatibility\";O:8:\"stdClass\":0:{}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:39:\"category_template/category_template.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:38:\"w.org/plugins/custom-category-template\";s:4:\"slug\";s:24:\"custom-category-template\";s:6:\"plugin\";s:39:\"category_template/category_template.php\";s:11:\"new_version\";s:3:\"0.4\";s:3:\"url\";s:55:\"https://wordpress.org/plugins/custom-category-template/\";s:7:\"package\";s:71:\"https://downloads.wordpress.org/plugin/custom-category-template.0.4.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}', 'no');
+(382, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1506817580;s:8:\"response\";a:1:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":8:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:3:\"4.0\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:54:\"https://downloads.wordpress.org/plugin/akismet.4.0.zip\";s:6:\"tested\";s:5:\"4.8.1\";s:13:\"compatibility\";O:8:\"stdClass\":0:{}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:39:\"category_template/category_template.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:38:\"w.org/plugins/custom-category-template\";s:4:\"slug\";s:24:\"custom-category-template\";s:6:\"plugin\";s:39:\"category_template/category_template.php\";s:11:\"new_version\";s:3:\"0.4\";s:3:\"url\";s:55:\"https://wordpress.org/plugins/custom-category-template/\";s:7:\"package\";s:71:\"https://downloads.wordpress.org/plugin/custom-category-template.0.4.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}', 'no'),
+(409, '_transient_is_multi_author', '0', 'yes'),
+(410, '_transient_timeout_dash_v2_88ae138922fe95674369b1cb3d215a2b', '1506869930', 'no'),
+(411, '_transient_dash_v2_88ae138922fe95674369b1cb3d215a2b', '<div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 7: Failed to connect to wordpress.org port 80: Connection timed out</p></div><div class=\"rss-widget\"><p><strong>RSS Error:</strong> WP HTTP Error: cURL error 7: Failed to connect to planet.wordpress.org port 443: Connection timed out</p></div>', 'no');
 
 -- --------------------------------------------------------
 
@@ -581,7 +582,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (421, 116, '_wp_trash_meta_time', '1506822646'),
 (422, 116, '_wp_desired_post_slug', 'top-footer'),
 (427, 202, '_edit_last', '1'),
-(428, 202, '_edit_lock', '1506823695:1'),
+(428, 202, '_edit_lock', '1506824571:1'),
 (435, 118, '_wp_trash_meta_status', 'publish'),
 (436, 118, '_wp_trash_meta_time', '1506823844'),
 (437, 118, '_wp_desired_post_slug', 'bottom-footer'),
@@ -1006,7 +1007,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (12, 1, 'wp_user_level', '10'),
 (13, 1, 'dismissed_wp_pointers', ''),
 (14, 1, 'show_welcome_panel', '1'),
-(15, 1, 'session_tokens', 'a:2:{s:64:\"3f0eae8b4ad0cd2e1b4e3d33187dc2922892c3c8094ec4c0fc7ee973bec6eb26\";a:4:{s:10:\"expiration\";i:1507507750;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506298150;}s:64:\"532299ad4ea80796e80b5ca4630952c84e084e6f30928dbfd9672e36918fc911\";a:4:{s:10:\"expiration\";i:1507983556;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506773956;}}'),
+(15, 1, 'session_tokens', 'a:4:{s:64:\"3f0eae8b4ad0cd2e1b4e3d33187dc2922892c3c8094ec4c0fc7ee973bec6eb26\";a:4:{s:10:\"expiration\";i:1507507750;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506298150;}s:64:\"532299ad4ea80796e80b5ca4630952c84e084e6f30928dbfd9672e36918fc911\";a:4:{s:10:\"expiration\";i:1507983556;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506773956;}s:64:\"7c6760bbc8047f9bb931728be25814d9137e5e92a08a57c3b684ccb06669b580\";a:4:{s:10:\"expiration\";i:1506999339;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506826539;}s:64:\"ed769ff614ccf3d9fb8a6f99a99335a9b46bcc00e9cd6d36d2e9a8cc5d5b504b\";a:4:{s:10:\"expiration\";i:1508036313;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:76:\"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0\";s:5:\"login\";i:1506826713;}}'),
 (16, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (17, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}'),
 (18, 1, 'wp_user-settings', 'editor=html&libraryContent=browse'),
@@ -1168,7 +1169,7 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=409;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=412;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
